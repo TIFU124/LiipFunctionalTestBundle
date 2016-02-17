@@ -1,27 +1,23 @@
 {
-    "name": "liip/functional-test-bundle",
-    "description": "This bundles provides additional functional test-cases for Symfony2 applications",
+    "name": "tifu124/functional-test-bundle",
+    "description": "This bundles provides additional functional test-cases for Symfony2 applications, with Sf2.6 support",
     "keywords": ["symfony2"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Liip AG",
-            "homepage": "http://www.liip.ch/"
-        },
-        {
-            "name": "Community contributions",
-            "homepage": "https://github.com/liip/LiipFunctionalTestBundle/contributors"
+            "name": "Thomas Bezuidenhout",
+            "homepage": "http://www.tifu.co.za/"
         }
     ],
     "require": {
         "php": "^5.3.9|^7.0",
-        "symfony/framework-bundle": "2.3.*|~2.7|~3.0",
+        "symfony/framework-bundle": "2.3.*|2.6.*|~2.7|~3.0",
         "symfony/browser-kit": "~2.3|~3.0",
         "doctrine/common": "~2.0"
     },
     "require-dev": {
-        "symfony/symfony": "~2.3.1|~2.7|~3.0",
+        "symfony/symfony": "~2.3.1|2.6.*|~2.7|~3.0",
         "doctrine/orm": "^2.4.8",
         "symfony/assetic-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
